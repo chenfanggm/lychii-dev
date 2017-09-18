@@ -1,0 +1,32 @@
+{
+  "name": "lychii-dev",
+  "version": "1.0.0",
+  "description": "lychii chatbot slack-node-sdk development",
+  "main": "index.js",
+  "scripts": {
+    "dev": "better-npm-run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "betterScripts": {
+    "dev": {
+      "command": "node bin/start.js",
+      "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "app:*"
+      }
+    }
+  },
+  "author": "Chen Fang",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@slack/client": "^3.12.0",
+    "bluebird": "^3.5.0",
+    "debug": "^3.0.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.11"
+  },
+  "devDependencies": {
+    "better-npm-run": "^0.1.0"
+  }
+}
