@@ -1,4 +1,4 @@
-const LychiiBot = require('../src/index')
+const Lychii = require('../src/index')
 
-const bot = new LychiiBot()
-bot.init()
+const lychii = new Lychii()
+lychii.init()
